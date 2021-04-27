@@ -11,3 +11,11 @@ padding: 50px;
 #third {
     color: green;
 }
+
+.colored-backroud{
+    background-color: purple;
+}
+
+p.colored-backroud{
+    background-color: yellow;
+}
