@@ -1,0 +1,16 @@
+#building{
+    content: url("images/building-japan-two.jpg");
+    
+}
+#dolls{
+    content: url("images/doll-decorative-japan.jpg");
+}
+#fuji{
+    content: url("images/mountain-fuji-landscape.jpg");
+}
+
+img{
+    width: 213;
+    height: 160px;
+    border: 5px solid blue;
+}
