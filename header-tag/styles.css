@@ -1,0 +1,52 @@
+body{
+    margin: 0px;
+}
+header{
+    background-color: #388E3C;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+header h3{
+    display: inline;
+    color: #FFF;
+    margin: 0px;
+}
+header a{
+    color: #FFF;
+    text-decoration: none;
+    }
+header ul a:hover{
+    color: #B0BEC5;
+    border-bottom: 3px solid #1B5E20;
+}
+header ul{
+        display: inline;
+        margin: 0px;
+    }
+header li{
+    list-style-type: none;
+    display: inline;
+}
+header li:not(:last-child){
+    padding-right: 20px;
+}
+header form{
+    display: inline-block;
+}
+header button{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+.search-icon{
+    background-image: url("search-light.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+}
